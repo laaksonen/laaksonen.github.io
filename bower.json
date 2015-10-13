@@ -1,0 +1,21 @@
+{
+  "name": "laaksonen.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/laaksonen/laaksonen.github.io",
+  "authors": [
+    "Lauri Laaksonen <lauri@lauri.io>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "duckling": "~1.0.1"
+  }
+}
