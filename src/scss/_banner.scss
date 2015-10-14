@@ -1,0 +1,88 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    background-image: url("../images/misty-mountain.jpeg");
+    background-position: center center, center top;
+    background-size:cover;
+    height:100vh;
+    // @extend .z-depth-1;
+}
+
+
+.banner-top-items {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.2em;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: darken($off-white, 20%);
+    transition: .2s;
+  }
+}
+
+.banner-portfolio { margin-left: 25px; }
+
+.banner-github,
+.banner-contact {
+  margin-left: 15px;
+}
+
+
+
+.banner-bottom-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  // text-align: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.banner-bottom-items-text {
+  text-align: center;
+  font-family: $banner-font-family;
+  letter-spacing: 3px;
+  color: #fff;
+
+  h1 {
+    margin: 0;
+    font-size: 6.5em;
+  }
+
+  h2 {
+    margin: 0;
+    border-radius: 5px;
+    font-size: 3.6em;
+  }
+}
+
+
+.banner-bottom-items-button {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+
+.circle-image {
+  border-radius: 50%;
+
+}
+
+.center-text-for-all * {
+  text-align: center;
+}
+
+.home-my-work {
+  font-weight: 400;
+  font-spacing: 3px;
+}

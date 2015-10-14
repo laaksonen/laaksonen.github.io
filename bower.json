@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "duckling": "~1.0.1"
+    "duckling": "~1.0.3"
   }
 }
