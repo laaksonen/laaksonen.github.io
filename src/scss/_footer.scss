@@ -1,9 +1,15 @@
 footer {
   display: flex;
   justify-content: space-between;
+  height: 70px;
+
+  h6 {
+    line-height: 70px;
+  }
 
   a {
     color: $link-color;
+    line-height: 70px;
   }
 }
 

@@ -1034,6 +1034,9 @@ input[type="radio"] {
 .technology-stack {
   color: #8C8788; }
 
+.home-bottom-hr {
+  margin-bottom: 0; }
+
 footer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1042,9 +1045,13 @@ footer {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  height: 70px; }
+  footer h6 {
+    line-height: 70px; }
   footer a {
-    color: #477dca; }
+    color: #477dca;
+    line-height: 70px; }
 
 .footer-right-side {
   display: -webkit-box;
