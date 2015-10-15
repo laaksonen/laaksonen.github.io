@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700);
-p, li {
-  line-height: 1.7em; }
-
 /*
 |------------------------------------------------------------------------------
 | Base variables
@@ -38,6 +34,7 @@ p, li {
 | Typography
 |------------------------------------------------------------------------------
 */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700);
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -393,7 +390,7 @@ th {
   padding: 0; }
 
 body {
-  background-color: #FBFBFB; }
+  background-color: #fff; }
 
 /*
 |------------------------------------------------------------------------------
@@ -748,7 +745,7 @@ button.unstyled {
             transition: 0s; }
     .btn.hollow:hover {
       background-color: #8C8788;
-      color: #FBFBFB; }
+      color: #fff; }
     .btn.hollow.bright {
       border: 2px solid #fff;
       color: #fff; }
@@ -782,7 +779,7 @@ span.badge {
   text-align: center;
   font-size: 1rem;
   line-height: inherit;
-  color: #FBFBFB;
+  color: #fff;
   box-sizing: border-box;
   font-size: 0.8rem;
   color: #fff;
