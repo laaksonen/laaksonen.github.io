@@ -1,20 +1,2 @@
-@import '../../bower_components/duckling/scss/components/variables';
 @import './variables';
-
-// Reset
-@import "../../bower_components/duckling/scss/normalize";
-
-// Core CSS
-@import "../../bower_components/duckling/scss/components/global";
-@import "../../bower_components/duckling/scss/components/typography";
-@import "../../bower_components/duckling/scss/components/grid";
-
-
-// Components
-@import "../../bower_components/duckling/scss/components/buttons";
-@import "../../bower_components/duckling/scss/components/badges";
-@import "../../bower_components/duckling/scss/components/collections";
-@import "../../bower_components/duckling/scss/components/forms";
-
-// Utility classes
-@import "../../bower_components/duckling/scss/components/utilities"
+@import '../../bower_components/duckling/scss/duckling';

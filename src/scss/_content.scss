@@ -1,3 +1,17 @@
-#portfolio-header {
-  margin-top: 3.5rem;
+#portfolio {
+  margin-top: 2rem;
+}
+
+.portfolio-section {
+  p {
+    a {
+      color: $soft-font-color;
+      background-image: linear-gradient(#fff 50%, $soft-font-color 50%);
+    }
+  }
+
+}
+
+.technology-stack {
+  color: #8C8788;
 }

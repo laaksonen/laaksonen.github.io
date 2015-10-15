@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: $link-color;
+  }
+}
+
+.footer-right-side {
+  display: flex;
+}
+
+.footer-contact {
+  margin-right: 15px;
+}

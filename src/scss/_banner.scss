@@ -1,21 +1,18 @@
 .banner {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-
     background-image: url("../images/misty-mountain.jpeg");
     background-position: center center, center top;
     background-size:cover;
     height:100vh;
-    // @extend .z-depth-1;
-}
+  }
 
-
-.banner-top-items {
+.banner-top-section {
+  // border: 1px solid white;
   display: flex;
-  height: 50px;
+  height: 220px;
   line-height: 50px;
-  font-size: 1.2em;
+  font-size: 1.4rem;
   a {
     color: #fff;
   }
@@ -26,63 +23,40 @@
 }
 
 .banner-portfolio { margin-left: 25px; }
-
 .banner-github,
 .banner-contact {
   margin-left: 15px;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-
-.banner-bottom-items {
+.banner-middle-section {
+  // border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  // text-align: center;
   vertical-align: middle;
-  height: 100%;
-}
-
-.banner-bottom-items-text {
   text-align: center;
+  height: 100%;
   font-family: $banner-font-family;
-  letter-spacing: 3px;
   color: #fff;
+  animation: fadein 4s;
 
   h1 {
-    margin: 0;
-    font-size: 6.5em;
+    font-size: 7rem;
   }
-
   h2 {
-    margin: 0;
-    border-radius: 5px;
-    font-size: 3.6em;
+    margin-top: 47px;
+    font-size: 3.6rem;
+    letter-spacing: 1px;
   }
 }
 
-
-.banner-bottom-items-button {
-  margin-top: 4em;
+.banner-bottom-section {
+  height: 220px;
   text-align: center;
-}
-
-.btn {
-  border-radius: 25px;
-}
-
-
-.circle-image {
-  border-radius: 50%;
-
-}
-
-.center-text-for-all * {
-  text-align: center;
-}
-
-.home-my-work {
-  font-weight: 400;
-  font-spacing: 3px;
+  // border: 1px solid tomato;
 }

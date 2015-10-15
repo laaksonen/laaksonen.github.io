@@ -11,9 +11,10 @@
   <body>
 
     <div class="banner">
-      <div class="banner-top-items">
+
+      <div class="banner-top-section">
         <div class="banner-portfolio">
-          <a href="#"><i class="fa fa-briefcase"></i> portfolio</a>
+          <a href="#portfolio"><i class="fa fa-briefcase"></i> portfolio</a>
         </div>
         <div class="banner-github">
           <a href="https://github.com/laaksonen"><i class="fa fa-github"></i> github</a>
@@ -23,55 +24,81 @@
         </div>
       </div>
 
-      <div class="banner-bottom-items">
+      <div class="banner-middle-section">
         <div class="banner-bottom-items-text">
           <h1>HI, I'M LAURI</h1>
-          <h2><strong>I BUILD WEB &amp; MOBILE APPLICATIONS</strong></h2>
-        </div>
-        <div class="banner-bottom-items-button">
-          <a href="#portfolio-header" class="btn huge hollow home-my-work">MY WORK</a>
+          <h2><strong>I BUILD WEB &amp; MOBILE APPS</strong></h2>
         </div>
       </div>
+
+      <div class="banner-bottom-section">
+        <a href="#portfolio" class="btn hollow bright huge">My Work</a>
+      </div>
+
+
 
     </div>
 
 
     <div class="container">
-      <h1 id="portfolio-header" class="u-center-text">Portfolio.</h1>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
-      <p>This is my portfolio website</p>
+
+      <div class="portfolio-section">
+
+        <h1 id="portfolio" class="u-center-text u-base-bottom-spacing">Portfolio.</h1>
+        <div class="row">
+          <div class="five columns u-center-text">
+            <h2>NUTRITION TRACKER</h2>
+            <p class="technology-stack">python, flask, js, react, html, sass</p>
+            <p>Tracks your daily nutrition and does other cool stuff. Oh yeah, it
+            also tracks your weight.</p>
+            <p><a href="#">source code @ github</a></p>
+            <a href="#" class="btn hollow large">Project Website</a>
+          </div>
+          <div class="six columns u-center-text">
+          </div>
+        </div>
+
+      </div>
+
+
       <hr />
 
 
       <div class="u-center-text">
-        <h1>About Me.</h1>
-        <p>Hello. My name is Lauri Laaksonen. I study Computer
-        Science at Åbo Akademi University in Turku, Finland. I like to build things.
-        If you want to get in touch with me,
-        <a href="mailto:lauri@laaksonen.io">email</a> is best.
-        You can also find me on <a href="https://github.com/laaksonen">Github</a>.
-        I am fluent in Finnish, Swedish, and English.
+        <h1 class="u-base-bottom-spacing">About Me.</h1>
+        <p>Hello. My name is Lauri Laaksonen. I currently study Computer
+        Science at Åbo Akademi University in Turku, Finland. I enjoy building
+        things, and I specialize in web and mobile applications. If you want to
+        get in touch with me, <a href="mailto:lauri@laaksonen.io">email</a> is
+        best. You can also find me on
+        <a href="https://github.com/laaksonen">Github</a>. I am fluent in
+        Finnish, Swedish, and English.
       </div>
 
       <hr />
 
       <div class="u-center-text">
-        <h1>Skills.</h1>
+        <h1 class="u-base-bottom-spacing">Skills.</h1>
         <ul>
           <li>JavaScript (ES6/7), Python</li>
           <li>HTML, CSS, Sass</li>
           <li>React, Flux, React Native</li>
           <li>Node.js, Express.js, Flask, Django</li>
+          <li>PostgreSQL, MongoDB</li>
           <li>Jasmine, Karma</li>
           <li>jQuery, lodash, d3.js</li>
           <li>Git, Webpack, Gulp</li>
         </ul>
       </div>
+
+      <hr />
+      <footer>
+        <h6>© 2015 Lauri Laaksonen</h6>
+        <div class="footer-right-side">
+          <h6><a href="#" class="footer-contact">Contact</a></h6>
+          <h6><a href="#">Github</a></h6>
+        </div>
+      </footer>
     </div>
 
 
