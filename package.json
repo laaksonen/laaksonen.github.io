@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/laaksonen/laaksonen.github.io/issues"
   },
-  "homepage": "https://github.com/laaksonen/laaksonen.github.io"
+  "homepage": "https://github.com/laaksonen/laaksonen.github.io",
+  "dependencies": {
+    "duckling-sass": "^1.0.9"
+  }
 }

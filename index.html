@@ -19,7 +19,7 @@
           <a href="https://github.com/laaksonen"><i class="fa fa-github"></i> github</a>
         </div>
         <div class="banner-contact">
-          <a href="mailto:lauri@laaksonen.io"><i class="fa fa-envelope"></i> contact</a>
+          <a href="mailto:lauri@laaksonen.io"><i class="fa fa-envelope"></i> lauri@laaksonen.io</a>
         </div>
       </div>
 
@@ -37,18 +37,20 @@
     </div>
 
     <div class="container">
-      <div class="portfolio-section">
-        <h1 id="portfolio" class="u-center-text u-base-bottom-spacing">Portfolio.</h1>
+      <div class="portfolio-section u-center-text">
+        <h1 id="portfolio" class="u-base-bottom-spacing">Portfolio.</h1>
         <div class="row">
-          <div class="five columns u-center-text">
-            <h2>NUTRITION TRACKER</h2>
-            <p class="technology-stack">python, flask, js, react, html, sass</p>
-            <p>Tracks your daily nutrition and does other cool stuff. Oh yeah, it
-            also tracks your weight.</p>
+          <div class="five columns">
+            <h3>MEMTEN</h3>
+            <h6 class="technology-stack">python, flask, js, react, html, sass</h6>
+            <h6>Tracks your daily nutrition and does other cool stuff. Oh yeah, it
+            also tracks your weight.</h6>
+            <div class="u-behave-like-text">
+              <a href="#" class="btn hollow large">Project Website</a>
+            </div>
             <p><a href="#">source code @ github</a></p>
-            <a href="#" class="btn hollow large">Project Website</a>
           </div>
-          <div class="six columns u-center-text">
+          <div class="seven columns">
           </div>
         </div>
       </div>
@@ -59,11 +61,11 @@
         <h1 class="u-base-bottom-spacing">About Me.</h1>
         <p>Hello. My name is Lauri Laaksonen. I currently study Computer
         Science at Åbo Akademi University in Turku, Finland. I enjoy building
-        things, and I specialize in building web and mobile applications. If you want to
-        get in touch with me, <a href="mailto:lauri@laaksonen.io">email</a> is
-        best. You can also find me on
+        things, and I specialize in building web and mobile applications.
+        If you want to get in touch with me, <a href="mailto:lauri@laaksonen.io">
+        email</a> is best. You can also find me on
         <a href="https://github.com/laaksonen">Github</a>. I am fluent in
-        Finnish, Swedish, and English.
+        Finnish, Swedish, and English.</p>
       </div>
 
       <hr />
@@ -84,21 +86,23 @@
 
       <hr />
 
-      <h1 class="u-base-bottom-spacing u-center-text">Contact me.</h1>
-      <form action="//formspree.io/lauri@laaksonen.io" method="POST" class="u-center-text">
-        <div>
-          <input type="email" name="_replyto" placeholder="Your email" />
-        </div>
-        <div>
-          <textarea name="name" rows="8" cols="30" placeholder="Your message"></textarea>
-        </div>
-        <div>
-          <input type="hidden" name="_next" value="//laaksonen.io/thanks" />
-          <input type="hidden" name="_subject" value="New form submission on laaksonen.io!" />
-          <input type="text" name="_gotcha" style="display:none" />
-          <input type="submit" value="Send" class="btn hollow large">
-        </div>
-      </form>
+      <div class="u-center-text">
+        <h1 class="u-base-bottom-spacing">Contact me.</h1>
+        <form action="//formspree.io/lauri@laaksonen.io" method="POST">
+          <div class="u-behave-like-text">
+            <input type="email" name="_replyto" placeholder="Your email" />
+          </div>
+          <div>
+            <textarea class="u-behave-like-text contact-form-textarea" rows="5" name="name" placeholder="Your message"></textarea>
+          </div>
+          <div>
+            <input type="hidden" name="_next" value="//laaksonen.io/thanks" />
+            <input type="hidden" name="_subject" value="New form submission on laaksonen.io" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <input type="submit" value="Send" class="btn hollow large">
+          </div>
+        </form>
+      </div>
 
       <hr class="home-bottom-hr" />
 

@@ -5,6 +5,7 @@
 .portfolio-section {
   p {
     a {
+      // font-size: 16px; font-size: 1.6rem;
       color: $soft-font-color;
       background-image: linear-gradient(#fff 50%, $soft-font-color 50%);
     }
@@ -16,6 +17,17 @@
   color: #8C8788;
 }
 
+.u-behave-like-text {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
 .home-bottom-hr {
   margin-bottom: 0;
+}
+
+.contact-form-textarea {
+  height: auto;
+  width: 100%;
+  max-width: 600px;
 }
