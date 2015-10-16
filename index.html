@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="bjWQZU5YJYtnjG5IR5Bm5ebjTlTnrDIcijSoWmy_mUM" />
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>Lauri Laaksonen</title>
@@ -84,21 +83,22 @@
       </div>
 
       <hr />
+
       <h1 class="u-base-bottom-spacing u-center-text">Contact me.</h1>
       <form action="//formspree.io/lauri@laaksonen.io" method="POST" class="u-center-text">
         <div>
-          <label for="name">Email</label>
-          <input type="email" name="_replyto" />
+          <input type="email" name="_replyto" placeholder="Your email" />
         </div>
         <div>
-          <label for="name">Message</label>
-          <textarea name="name" rows="8" cols="30"></textarea>
+          <textarea name="name" rows="8" cols="30" placeholder="Your message"></textarea>
         </div>
         <div>
+          <input type="hidden" name="_next" value="//laaksonen.io/thanks" />
+          <input type="hidden" name="_subject" value="New form submission on laaksonen.io!" />
+          <input type="text" name="_gotcha" style="display:none" />
           <input type="submit" value="Send" class="btn hollow large">
         </div>
       </form>
-    </form>
 
       <hr class="home-bottom-hr" />
 
