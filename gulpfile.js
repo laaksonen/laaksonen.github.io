@@ -3,9 +3,9 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
-var gulpif = require('gulp-if');
 var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync');
 
@@ -43,7 +43,17 @@ gulp.task('styles', function () {
   gulp.src(config.paths.mainScss)
     .pipe(sass().on('error', sass.logError))
     .pipe(prefix())
-    .pipe(gulpif(production, cssmin()))
+    .pipe(gulp.dest(config.paths.distCss));
+});
+
+gulp.task('minifyStyles', function () {
+  gulp.src(config.paths.mainScss)
+    .pipe(sass().on('error', sass.logError))
+    .pipe(prefix())
+    .pipe(cssmin())
+    .pipe(rename({
+      suffix: '.min'
+    }))
     .pipe(gulp.dest(config.paths.distCss));
 });
 
@@ -95,4 +105,4 @@ gulp.task('watch', function () {
  |--------------------------------------------------------------------------
 */
 gulp.task('default', ['watch']);
-gulp.task('build', ['js', 'styles', 'images']);
+gulp.task('build', ['js', 'styles', 'minifyStyles', 'images']);

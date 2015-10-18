@@ -9,8 +9,8 @@
     "gulp-autoprefixer": "^3.0.2",
     "gulp-cache": "^0.3.0",
     "gulp-cssmin": "^0.1.7",
-    "gulp-if": "^2.0.0",
     "gulp-imagemin": "^2.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-uglify": "^1.4.2"
   },
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/laaksonen/laaksonen.github.io",
   "dependencies": {
-    "duckling-sass": "^1.0.9"
+    "grund": "^1.0.3"
   }
 }
