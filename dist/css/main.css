@@ -1004,6 +1004,10 @@ input[type="radio"] {
 .u-base-bottom-spacing {
   margin-bottom: 1.6rem; }
 
+hr {
+  margin-top: 5.6rem;
+  margin-bottom: 5rem; }
+
 .lauri,
 .laaksonen {
   font-family: 'Oswald', sans-serif;
@@ -1012,13 +1016,10 @@ input[type="radio"] {
   font-weight: 700; }
 
 .lauri {
-  margin-top: 56px; }
-
-.laaksonen {
-  margin-top: 0rem; }
+  margin-top: 5.6rem; }
 
 .about-me-intro {
-  margin-top: 50px; }
+  margin-top: 5rem; }
 
 .skill-set {
   font-weight: 400; }
@@ -1036,7 +1037,7 @@ input[type="radio"] {
 .contact-form-textarea {
   height: auto;
   width: 100%;
-  max-width: 600px; }
+  max-width: 500px; }
 
 footer {
   display: -webkit-box;
