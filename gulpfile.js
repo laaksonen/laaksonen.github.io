@@ -104,5 +104,5 @@ gulp.task('watch', function () {
  | Run tasks
  |--------------------------------------------------------------------------
 */
-gulp.task('default', ['watch']);
+gulp.task('default', ['js', 'styles', 'minifyStyles', 'images', 'watch']);
 gulp.task('build', ['js', 'styles', 'minifyStyles', 'images']);

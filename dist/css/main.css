@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
 /*
 |------------------------------------------------------------------------------
 | Colors
@@ -395,7 +396,7 @@ th {
   padding: 0; }
 
 body {
-  background-color: #FBFBFB; }
+  background-color: #fff; }
 
 /*
 |------------------------------------------------------------------------------
@@ -593,7 +594,7 @@ hr {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -724,27 +725,27 @@ button.unstyled {
   line-height: 40px;
   padding: 0 14px;
   border-radius: 2px;
-  background-color: #8C8788;
+  background-color: #33c3f0;
   color: #fff;
   vertical-align: middle;
   text-align: center;
   -webkit-transition: .2s;
           transition: .2s; }
   .btn:hover {
-    background-color: #a09c9d; }
+    background-color: #59cef3; }
   .btn.raised:hover {
-    background-color: #989495; }
+    background-color: #4bcaf2; }
   .btn.hollow {
     background-color: transparent;
-    border: 2px solid #8C8788;
+    border: 2px solid #33c3f0;
     line-height: 36px;
     border-radius: 4px;
-    color: #8C8788;
+    color: #33c3f0;
     -webkit-transition: 0s;
             transition: 0s; }
     .btn.hollow:hover {
-      background-color: #8C8788;
-      color: #FBFBFB; }
+      background-color: #33c3f0;
+      color: #fff; }
     .btn.hollow.bright {
       border: 2px solid #fff;
       color: #fff; }
@@ -780,7 +781,7 @@ span.badge {
   font-size: 1.6rem;
   line-height: 1.4;
   color: #fff;
-  background-color: #8C8788;
+  background-color: #33c3f0;
   border-radius: 2px; }
 
 .collection {
@@ -797,7 +798,7 @@ span.badge {
     .collection .collection-item:last-child {
       border-bottom: none; }
     .collection .collection-item.active {
-      background-color: #8C8788;
+      background-color: #33c3f0;
       color: white; }
   .collection a.collection-item {
     display: block;
@@ -890,7 +891,7 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus {
-  border: 1px solid #8C8788;
+  border: 1px solid #33c3f0;
   outline: 0; }
   input[type="email"]:focus.has-error,
   input[type="number"]:focus.has-error,
@@ -903,7 +904,7 @@ input[type="password"]:focus {
 
 textarea:focus,
 select:focus {
-  border: 1px solid #8C8788;
+  border: 1px solid #33c3f0;
   outline: 0; }
 
 input[type="checkbox"],
@@ -987,7 +988,7 @@ input[type="radio"] {
 
 .u-pull-right-color {
   float: right;
-  color: #8C8788; }
+  color: #33c3f0; }
 
 .u-center-text {
   text-align: center; }
@@ -1003,39 +1004,34 @@ input[type="radio"] {
 .u-base-bottom-spacing {
   margin-bottom: 1.6rem; }
 
-.hero-full-screen {
-  background-image: url("../images/misty-mountain.jpeg"); }
+.lauri,
+.laaksonen {
+  font-family: 'Oswald', sans-serif;
+  font-size: 8.5rem;
+  letter-spacing: 6px;
+  font-weight: 700; }
 
-.hero-full-screen h1, .hero-full-screen h3 {
-  font-family: "Amatic SC", cursive; }
+.lauri {
+  margin-top: 56px; }
 
-.hero-full-screen h1 {
-  font-size: 9rem; }
+.laaksonen {
+  margin-top: 0rem; }
 
-.hero-full-screen h3 {
-  font-size: 4rem; }
+.about-me-intro {
+  margin-top: 50px; }
 
-.hero-github,
-.hero-email {
-  margin-left: 15px; }
-
-#portfolio {
-  margin-top: 2rem; }
-
-.portfolio-section p a {
-  color: #8C8788;
-  background-image: -webkit-linear-gradient(#fff 50%, #8C8788 50%);
-  background-image: linear-gradient(#fff 50%, #8C8788 50%); }
+.skill-set {
+  font-weight: 400; }
 
 .technology-stack {
-  color: #8C8788; }
-
-.u-behave-like-text {
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem; }
+  color: #999; }
 
 .home-bottom-hr {
   margin-bottom: 0; }
+
+.contact-form-input {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem; }
 
 .contact-form-textarea {
   height: auto;
