@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/laaksonen/laaksonen.github.io",
   "dependencies": {
-    "grund": "^1.0.3"
+    "grund": "^1.0.7"
   }
 }
