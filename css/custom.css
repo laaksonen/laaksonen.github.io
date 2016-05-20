@@ -1,0 +1,48 @@
+.section {
+  margin-top: 3.3rem;
+}
+
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 6.3rem;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+
+.main-links {
+  margin-top: -1.8rem;
+}
+
+.contact-form-textarea {
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (max-width: 550px) {
+  .name {
+    font-size: 5.3rem;
+
+  }
+}
+
+@media (max-width: 460px) {
+  .name {
+    font-size: 4.9rem;
+
+  }
+}
+
+@media (max-width: 420px) {
+  .name {
+    font-size: 4.5rem;
+
+  }
+}
+
+@media (max-width: 370px) {
+  .name {
+    font-size: 4.2rem;
+
+  }
+}

@@ -3,72 +3,69 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <title>Lauri Laaksonen</title>
   </head>
   <body>
     <div class="container">
-
-      <h1 class="lauri">LAURI</h1>
-      <h1 class="laaksonen">LAAKSONEN</h1>
-      <p><a href="#portfolio">projects</a> /
-         <a href="https://github.com/laaksonen">github</a> /
-         <a href="mailto:lauri@laaksonen.io">lauri@laaksonen.io</a></p>
-
-      <div class="about-me-intro">
-      <p>Hello, I'm Lauri Laaksonen. I'm a <strong>full-stack web developer</strong>
-         with a Computer Science background, based in Turku, Finland. I design and
-         build products that are clear, practical, and intuitive to use. I enjoy
-         writing clean, readable, test-driven code.</p>
-
-      <p>If you want to get in touch with me, <a href="mailto:lauri@laaksonen.io">email</a>
-         is best. I am fluent in Finnish, Swedish, and English. You can also find
-         me on <a href="https://github.com/laaksonen">Github</a>.</p>
+      <div class="section">
+        <h1 class="name">LAURI LAAKSONEN</h1>
+        <p class="main-links"><a href="mailto:lauri@laaksonen.io">lauri@laaksonen.io</a> /
+           <a href="https://github.com/laaksonen">github</a>
+        </p>
+      </div>
+      <div class="section">
+        <p>Hello, I'm Lauri Laaksonen. I'm a <strong>full-stack web developer</strong>
+        with a Computer Science background, currently based in Turku, Finland.
+        I enjoy writing clean, test-driven code; and building things that
+        practical are intuivitve to use.</p>
+        <p>If you want to get in touch with me, <a href="mailto:lauri@laaksonen.io">
+        email</a> is best. I am fluent in Finnish, Swedish, and English. You can
+        also find me on <a href="https://github.com/laaksonen">Github</a>.</p>
       </div>
 
-      <hr />
+      <div class="section">
+        <h3>Projects</h3>
+        <hr />
+        <ul>
+          <li><a href="#">pomodoro timer</a> —
+          <li><a href="http://auth-starter.laaksonen.io/">auth-starter</a> —
+          A boilerplate for a modern scalable web application that handles
+          token based user authentication.
+          <a href="http://auth-starter.laaksonen.io/">auth-starter</a> consists
+          of two separate stand-alone applications, a
+          <a href="https://github.com/laaksonen/react-redux-auth-starter">
+          client-side react & redux application</a> and an
+          <a href="https://github.com/laaksonen/express-auth-server-starter">
+          Express API server</a>.
+          </li>
+        </ul>
+      </div>
 
-      <h1 id="portfolio">Projects</h1>
-
-      <ul>
-        <li><p><a href="#">food tracker</a> — A fitness tracker that focuses on tracking the amount of calories consumed and changes in bodyweight (<a href="#">github</a>)</p></li>
-        <li><p><a href="#">taskapp</a> — A task manager that organizes tasks (and subtasks) into different sections and sorts them by importance (<a href="#">github</a>) </p></li>
-        <li><p><a href="https://github.com/laaksonen/grund">grund</a> — A flexible CSS framework</p></li>
-        <li><p><a href="https://github.com/laaksonen/web-skeleton">web-skeleton</a> — A template/skeleton web application built with Express and React</p></li>
-      </ul>
-
-      <hr />
-
-      <div>
-        <h2 class="u-base-bottom-spacing">Contact me</h2>
+      <div class="section">
+        <h3>Contact me</h3>
+        <hr />
         <form action="//formspree.io/lauri@laaksonen.io" method="POST">
-          <div class="contact-form-input">
+          <div>
             <input type="email" name="_replyto" placeholder="Your email" />
           </div>
           <div>
-            <textarea class="u-behave-like-text contact-form-textarea" rows="5" name="name" placeholder="Your message"></textarea>
+            <textarea class="u-behave-like-text contact-form-textarea" rows="6" name="name" placeholder="Your message"></textarea>
           </div>
           <div>
             <input type="hidden" name="_next" value="//laaksonen.io/success" />
             <input type="hidden" name="_subject" value="New form submission on laaksonen.io" />
             <input type="text" name="_gotcha" style="display:none" />
-            <input type="submit" value="Send" class="btn">
+            <input type="submit" value="Send" class="button-primary">
           </div>
         </form>
       </div>
-
-      <hr class="home-bottom-hr" />
-
-      <footer>
-        <h6>© 2016 Lauri Laaksonen</h6>
-        <div class="footer-right-side">
-          <h6><a href="mailto:lauri@laaksonen.io" class="footer-contact">Contact</a></h6>
-          <h6><a href="https://github.com/laaksonen">Github</a></h6>
-        </div>
-      </footer>
-
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="dist/js/smooth-scolling.js"></script>
   </body>
+
+
 </html>
