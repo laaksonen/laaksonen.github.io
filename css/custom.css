@@ -1,5 +1,5 @@
 .section {
-  margin-top: 3.9rem;
+  margin-top: 3.7rem;
 }
 
 .name {
@@ -30,28 +30,28 @@
 
 @media (max-width: 550px) {
   .name {
-    font-size: 5.5rem;
+    font-size: 6rem;
     letter-spacing: 6px;
   }
 }
 
 @media (max-width: 460px) {
   .name {
-    font-size: 5rem;
+    font-size: 5.5rem;
     letter-spacing: 6px;
   }
 }
 
 @media (max-width: 390px) {
   .name {
-    font-size: 4.7rem;
+    font-size: 5.1rem;
     letter-spacing: 5px;
   }
 }
 
 @media (max-width: 360px) {
   .name {
-    font-size: 4.5rem;
+    font-size: 4.9rem;
     letter-spacing: 5px;
   }
 }
